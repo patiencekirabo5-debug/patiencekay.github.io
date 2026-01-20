@@ -1,0 +1,88 @@
+header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    overflow: hidden;
+    background-color: bisque;
+}
+nav a {
+    float: left;
+    display: block;
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #ddd;
+    color:black
+}
+/*  formatting hero section */
+.hero {
+min-height: 500px;
+background: linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)
+),
+url(pic\ lec\ 2.png);
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center ;
+padding:  40px 20px;
+}
+.hero-content{
+    max-width: 800px;
+    color: #ffff;
+}
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.hero h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+.hero p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+}
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+table{
+    width:100%
+}
+th{
+    background-color: blue;
+    color: white;
+}
+form{
+    margin: 40px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    display: block;
+    padding: 10px;
+    width:  80%;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
